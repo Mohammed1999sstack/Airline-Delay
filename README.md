@@ -68,7 +68,7 @@ The dataset includes the following columns:
 - Ensure unique entries for each airport based on `IATA` and `ICAO` codes.
 
 ## Data Modeling
-
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/DATA%20Moddling.png)
 ### Objective
 We aim to model airline delay data to:
 - Analyze causes and patterns of flight delays.
@@ -120,8 +120,72 @@ We aim to model airline delay data to:
 - **Fact Flights ↔ Dim Carrier:** `Carrier Code`
 - **Fact Flights ↔ Dim Cancellation:** `CancellationCode`
 
-## Summary
-This documentation provides a structured approach to cleaning and modeling airline delay data using Power Query. The cleaned dataset is prepared for advanced analytics and visualization in Power BI, enabling stakeholders to derive actionable insights on flight delays and cancellations.
+# Visualization in Power BI
+
+## Overview
+I used **Power BI Desktop** to create visualizations for this project. The report consists of multiple pages, each serving a specific purpose.
+
+## Home Page
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/Home%20page.png)
+The first visual, located in the **upper left corner**, is the **Home Page**. This page contains:
+- The **Project Title**
+- **Navigation Buttons** to:
+  - View the Dashboard
+  - Access the Project Description
+  - Open the Q&A section
+  
+This page serves as the entry point for users to navigate through the report easily.
+
+## First Page: Overview
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/overview%20page.png)
+The first page, provides an **overview** of key metrics and insights. It includes:
+- Total flights, offline flights, early flights, and late flights
+- Top 10 carriers by flights
+- Top 10 airports by flights
+- Flight trends by month and quarter
+- Regional flight comparison
+
+This page summarizes flight performance across different airlines and airports.
+
+## second Page: Geographical Analysis
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/Geographical%20page.png)
+The second page, focuses on **regional analysis**. It helps in understanding flight delays across different regions. The key elements include:
+- Total delay hours by region (displayed on a map)
+- Top 5 and bottom 5 regions by delays
+- Total plane and delay ratio by carrier
+- Number of airports and delay ratio by region
+
+This page enables users to identify delay patterns across different geographical locations.
+
+## Drill-Through to Region Details
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/Drill%20throught%20region.png)
+The dashboard also supports **drill-through functionality**, allowing users to select a specific region from the geographical analysis page and explore detailed statistics. The drill-through page includes:
+- Average departure and arrival delay
+- Delay breakdown by reason (weather, security, aircraft, carrier)
+- Monthly delay trends
+- Delay ratio by time of day and hour
+- Drill-through capability to analyze specific airports within a region
+
+This page allows users to analyze flight delays at a granular level, identifying key causes and trends at specific airports.
+
+## Drill-Through to Airport Details
+ ![Image Alt](https://github.com/Mohammed1999sstack/Airline-Delay/blob/main/ScreenShots/Drill%20throught%20Airport.png)
+The dashboard also supports **drill-through functionality**, allowing users to select a specific airport from the geographical analysis page and explore detailed statistics. The drill-through page includes:
+- **Airport-Specific Metrics**: Number of planned flights, average departure and arrival delays, and delays by different reasons.
+- **Total Delay by Airport**: Visualized on an interactive map.
+- **Delay Patterns**:
+  - Delay ratio by month to observe seasonal trends.
+  - Delay ratio by day to identify weekly patterns.
+  - Delay ratio by hour to analyze peak delay times.
+- **Detailed Flight Data**: Includes aircraft tail numbers, total distance covered, number of flights, and total delay for each aircraft.
+
+This drill-through functionality enhances the dashboard by providing deeper insights into delay trends at an airport level, making it easier for users to diagnose issues and optimize operations.
+
+
+
+This README serves as a provisional guide for the **GitHub repository**, outlining the purpose and structure of the dashboard visuals.
+
+
 
 
 To use this schema for analyzing airline delays:
