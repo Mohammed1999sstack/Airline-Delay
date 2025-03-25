@@ -231,7 +231,7 @@ Dynamic filters control all dashboard pages:
 ---
 
 ## **10. Contributors**  
-- **[Mohammed Osama Alsamadoni](https://github.com/Mohammed1999sstack)** *  
+- **[Mohammed Osama Alsamadoni](https://github.com/Mohammed1999sstack)**  
 - **Abdallah Mostafa Shrief** 
 - **Yasmeen Raghep Mostafa**
 
