@@ -230,10 +230,11 @@ Dynamic filters control all dashboard pages:
 
 ---
 
-## **10. Contributors**  
-- **[Mohammed Osama Alsamadoni](https://github.com/Mohammed1999sstack)**  
-- **Abdallah Mostafa Shrief** 
-- **Yasmeen Raghep Mostafa**
+## **10. Contributors**
+- [**Mohammed Osama Alsamadoni**](https://github.com/Mohammed1999sstack)  
+- [**Abdallah Mostafa Shrief**](https://github.com/bedoo123)  
+- [**Yasmeen Raghep Mostafa**](https://github.com/yasmeenragheb)
+
 
 **Feedback Welcome!** Please open issues or PRs with suggestions.  
 
